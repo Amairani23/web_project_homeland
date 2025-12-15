@@ -8,14 +8,38 @@ body {
   color: #fff;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1024px;
+    max-width: 1268px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    min-width: 640px;
+    min-width: 768px;
+    max-width: 1024px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    min-width: 544px;
     max-width: 768px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-width: 320px;
+    max-width: 544px;
+    overflow: hidden;
   }
 }

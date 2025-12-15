@@ -6,3 +6,9 @@
 .footer__copyright {
   margin: 110px auto 24px;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin: 50px auto 24px;
+  }
+}
