@@ -37,21 +37,21 @@
     overflow: hidden;
   }
   .intro__title {
-    max-width: 700px;
+    max-width: 600px;
     font-size: 45px;
     line-height: 1.2;
   }
 
   .intro__text_cite {
-    max-width: 700px;
+    max-width: 600px;
   }
 
   .intro__text_author {
-    max-width: 700px;
+    max-width: 600px;
   }
 
   .intro__text_summary {
-    max-width: 700px;
+    max-width: 600px;
   }
 }
 
@@ -61,7 +61,6 @@
   }
 
   .intro__title {
-    max-width: 288px;
     font-size: 32px;
   }
 }
