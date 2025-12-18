@@ -1,0 +1,36 @@
+.places {
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.places__title {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 0;
+}
+
+.places_content {
+  align-self: flex-end;
+}
+
+.places__website {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin: 0;
+}
+
+.places__website_span {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.places__image {
+  max-width: 480px;
+}
