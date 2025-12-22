@@ -14,20 +14,22 @@
   margin: 0;
 }
 
-.places_content {
+.places__website {
   align-self: flex-end;
 }
 
-.places__website {
+.places__artist {
   font-size: 18px;
   line-height: 1.5;
   font-weight: normal;
   margin: 0;
 }
 
-.places__website_span {
+.places__url-heading {
+  text-decoration: none;
+  color: #aaaaaa;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -39,6 +41,10 @@
   box-shadow: 4px 4px 20px #000000;
 }
 
+.places__image:hover {
+  opacity: 0.5;
+}
+
 .places__paragraph {
   font-size: 18px;
   line-height: 1.5;
@@ -46,17 +52,20 @@
   margin: 40px 0;
 }
 
-.places__button {
+.places__paragraph_button {
   max-width: 289px;
   max-height: 48px;
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  padding: 10px;
   background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   color: #fff;
   border: 0;
   box-shadow: 4px 4px 20px #000000;
+}
+
+.places__paragraph_button:hover {
+  background-image: linear-gradient(to right, #0278fe 0%, #003a7b 0%);
 }
 
 @media screen and (max-width: 1024px) {
@@ -122,6 +131,10 @@
 
   .places_content {
     align-self: center;
+  }
+
+  .places__paragraph_button {
+    padding: 10px;
   }
 
   .places__image {
